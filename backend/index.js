@@ -88,6 +88,9 @@ app.post('/login', async (req, res) => {
 //     })
    
 // })
+app.post('/', async (req, res) => {
+  res.send("Hello");
+}
 app.post('/register', async (req, res) => {
     const { name, email, password } = req.body;
   
