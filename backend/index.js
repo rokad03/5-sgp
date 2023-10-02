@@ -6,7 +6,7 @@ const app=express();
 app.use(express.json())
 app.use(express.urlencoded())
 app.use(cors({
-  origin:["https://deploy-mern-1whq.vercel.app"],
+  origin:["https://vercel.com/rokad03s-projects/5-sgp-backend"],
   methods:["POST","GET"],
   credentials:true
 }
